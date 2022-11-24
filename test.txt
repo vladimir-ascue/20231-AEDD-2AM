@@ -1,1 +1,1 @@
-as
+Bienvenidos al Curso de Algoritmos y Estructuras de datos
