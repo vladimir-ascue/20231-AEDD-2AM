@@ -5,6 +5,7 @@ public class Principal {
     //      DireccionLegal
     
     public static void main(String[] args) throws Exception {
+        // TIPOS DE DATOS PRINCIPALES
         String nombre = "Vladimir"; // Cadena de caracteres >> texto
         int edad = 40; // Numero entero
         double estatura = 1.73; // Real >> Decimal
