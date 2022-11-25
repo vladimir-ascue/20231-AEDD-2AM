@@ -52,6 +52,6 @@ public class Lector {
 	}
 
 	protected static void escribirLinea(String texto) {
-		System.out.print(texto);
+		System.out.println(texto);
 	}
 }

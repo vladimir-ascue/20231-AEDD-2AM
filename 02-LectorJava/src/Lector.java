@@ -50,7 +50,7 @@ public class Lector {
 	}
 
 	private static void escribirLinea(String texto) {
-		System.out.print(texto);
+		System.out.println(texto);
 	}
 
 	public static void main(String[] args) throws Exception {

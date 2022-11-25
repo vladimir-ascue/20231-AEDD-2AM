@@ -14,7 +14,7 @@ public class Principal {
         // También es posible hacer la declaracion y la asignacion en una misma línea
         int edad = 40; // Numero entero
         double estatura = 1.73; // Real >> Decimal
-        Boolean esSoltero = false;
+        Boolean esSoltero = false;  // Booleano >> Solo toma 1 de 2 posibles valores (Verdadero o Falso)
 
         // para imprimir valores en pantalla es necesario usar la instruccion
         //   - System.out.print Si se desea imprimir en pantalla y dejar el cursos a continuacion del texto impreso
