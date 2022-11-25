@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
-public class LectorJava {
+public class Lector {
 	@SuppressWarnings("resource")
-	private static int LeerEntero() {
+	private static int LeerEntero(String mensaje) {
 		Boolean flagEntero = true;
 		int entero = 0;
 		do {
 			try {
 				Scanner lector = new Scanner(System.in);
-				System.out.println("Infrese un número entero: ");
+				System.out.println(mensaje);
 				entero = lector.nextInt();
 				flagEntero = false;
 			} catch (Exception e) {
@@ -21,13 +21,13 @@ public class LectorJava {
 	}
 
 	@SuppressWarnings("resource")
-	private static double LeerReal() {
+	private static double LeerReal(String mensaje) {
 		Boolean flagReal = true;
 		double real = 0;
 		do {
 			try {
 				Scanner lector = new Scanner(System.in);
-				System.out.println("Infrese un número real: ");
+				System.out.println(mensaje);
 				real = lector.nextDouble();
 				flagReal = false;
 			} catch (Exception e) {
@@ -40,11 +40,9 @@ public class LectorJava {
 	}
 
 	@SuppressWarnings("resource")
-	private static String LeerTexto() {
-		Scanner lector = new Scanner(System.in);
-		System.out.println("Infrese un número texto: ");
-		String texto = lector.nextLine();
-		return texto;
+	private static String LeerTexto(String mensaje) {
+		System.out.print(mensaje);
+		return new Scanner(System.in).nextLine();
 	}
 
 	private static void escribir(String texto) {
@@ -56,6 +54,13 @@ public class LectorJava {
 	}
 
 	public static void main(String[] args) throws Exception {
+		String nombre = LeerTexto("Ingrese su nombre");
+		escribirLinea("Su nombre es: " + nombre);
 
+		int edad = LeerEntero("Ingrese su edad: ");
+		escribirLinea("Su edad es: " + edad);
+
+		double estatura = LeerReal("Ingrese su estatura: ");
+		escribir("Su estatura es: " + estatura);
 	}
 }
