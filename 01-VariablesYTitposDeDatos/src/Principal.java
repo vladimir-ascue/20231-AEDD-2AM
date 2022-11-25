@@ -1,9 +1,10 @@
+import java.util.Scanner;
+
 public class Principal {
     // notacion de varianles y metodos
     // CAMEL CASE : Se utiliza una mayuscula al inicio de cada palabra
     //      NombresCompletos 
     //      DireccionLegal
-    
     public static void main(String[] args) throws Exception {
         // TIPOS DE DATOS PRINCIPALES
         String nombre = "Vladimir"; // Cadena de caracteres >> texto
