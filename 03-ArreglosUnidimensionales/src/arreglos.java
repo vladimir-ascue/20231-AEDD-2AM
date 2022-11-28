@@ -47,9 +47,8 @@ public class arreglos {
         Lector.escribirLinea("Respuesta a la pregunta de Ruben");
         Lector.escribirLinea("¿Y que hago si quiero incrementar de 2 en 2?");
         // a += b >> a = a + b
-        for(int j = 0; j < 10; j+=2){
-            Lector.escribirLinea("j = " + j);
+        for(int i = 1; i < 10; i+=2){
+            Lector.escribirLinea("i = " + i);
         }
-
     }
 }
