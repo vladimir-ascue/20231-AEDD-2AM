@@ -1,18 +1,18 @@
 import java.util.Scanner;
 
-public class Lector {
+public class LectorV2 {
+	private static Scanner lector = new Scanner(System.in);
 	@SuppressWarnings("resource")
-	protected static int LeerEntero() {
+	protected static int leerEntero(String mensaje) {
 		Boolean flagEntero = true;
 		int entero = 0;
 		do {
 			try {
-				Scanner lector = new Scanner(System.in);
-				System.out.println("Infrese un número entero: ");
+				System.out.print(mensaje);
 				entero = lector.nextInt();
 				flagEntero = false;
 			} catch (Exception e) {
-				System.out.println("Error: Debe ingresar un número entero: ");
+				System.out.println("Error: Debe ingresar valor entero: ");
 				flagEntero = true;
 				System.out.print("Intentelo nuevamente: ");
 			}
@@ -21,17 +21,16 @@ public class Lector {
 	}
 
 	@SuppressWarnings("resource")
-	protected static double LeerReal() {
+	protected static double leerReal(String mensaje) {
 		Boolean flagReal = true;
 		double real = 0;
 		do {
 			try {
-				Scanner lector = new Scanner(System.in);
-				System.out.println("Infrese un número real: ");
+				System.out.print(mensaje);
 				real = lector.nextDouble();
 				flagReal = false;
 			} catch (Exception e) {
-				System.out.println("Error: Debe ingresar un número real: ");
+				System.out.println("Error: Debe ingresar un valor real: ");
 				flagReal = true;
 				System.out.print("Intentelo nuevamente: ");
 			}
@@ -40,9 +39,8 @@ public class Lector {
 	}
 
 	@SuppressWarnings("resource")
-	protected static String LeerTexto() {
-		Scanner lector = new Scanner(System.in);
-		System.out.println("Infrese un número texto: ");
+	protected static String LeerTexto(String mensaje) {
+		System.out.print(mensaje);
 		String texto = lector.nextLine();
 		return texto;
 	}

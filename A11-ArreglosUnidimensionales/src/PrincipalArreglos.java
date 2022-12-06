@@ -1,4 +1,4 @@
-public class arreglos {
+public class PrincipalArreglos {
     public static void main(String[] args) throws Exception {
         // Arreglos: Una variable, varios datos
         // Tamaño fijo

@@ -11,7 +11,7 @@ public class calculadoraMain {
         LectorV2.escribirLinea(" 3- Multiplicación");
         LectorV2.escribirLinea(" 4- Division");
     }
-    /* Fucnion: "Tipo de dato que se debe retornar"
+    /* Funcion: "Tipo de dato que se debe retornar"
      * Ejecuta un conjunto de instrucciones y
      * devuelve un valor como resultado del tipo indicado
      * */
@@ -42,6 +42,22 @@ public class calculadoraMain {
             case 5:
                 break;
             default:
+                break;
+        }
+
+        String ciudad = Lector.LeerTexto("Ingrese nombre de ciudad: ");
+        switch (ciudad){
+            case "Lima":
+                Lector.escribirLinea("La ciudad es: " + ciudad);
+                break;
+            case "Cusco":
+                Lector.escribirLinea("La ciudad es:  " + ciudad);
+                break;
+            case "Arequipa":
+                Lector.escribirLinea("La ciudad es:  " + ciudad);
+                break;
+            default:
+                Lector.escribirLinea("El nombre no esta registraado.");
                 break;
         }
     }

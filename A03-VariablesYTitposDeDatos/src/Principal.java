@@ -1,6 +1,6 @@
 public class Principal {
-    // notacion de varianles y metodos
-    // CAMEL CASE : Se utiliza una mayuscula al inicio de cada palabra
+    // Notación de variables y métodos
+    // CAMEL CASE : Se utiliza una mayúscula al inicio de cada palabra
     //      NombresCompletos 
     //      DireccionLegal
     public static void main(String[] args) throws Exception {
@@ -8,7 +8,7 @@ public class Principal {
         // En la declaracion de variables es necesario indicar el tipo de dato
         // Es posible hacer la declaraicon solamenta
         String nombre;
-        // Y posteriormente hacer la asignacion del valor de dicha variable
+        // Y posteriormente hacer la asignación del valor de dicha variable
         nombre = "Vladimir"; // Cadena de caracteres >> texto
 
         // También es posible hacer la declaracion y la asignacion en una misma línea
