@@ -49,16 +49,18 @@ public class PrincipalModularidad {
 
         int [] arreglo = { 2, 3, 4, 5, 6, 7 };
         LectorV2.escribirLinea("Invocación al método mostrarArreglo:");
-        mostarArreglo(arreglo);
+        mostarArreglo( arreglo );
         LectorV2.escribirLinea("");
 
         LectorV2.escribirLinea("Invocación a la función ubicacionElemento():");
 
         LectorV2.escribirLinea("");
         LectorV2.escribirLinea("Asignando el valor retornado por la funcion a una variable");
+
         // como la funcion retorna un valor, esta puese ser asignada como valor a una variable
-        int buscado = 10;
+        int buscado = 5;
         int posicion = ubicacionElemento(arreglo,buscado);
+
         if (posicion >= 0 ){
             LectorV2.escribirLinea(buscado + " está en la posición " + posicion + " del arreglo.");
         }else{
