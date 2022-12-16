@@ -34,30 +34,35 @@ public class calculadoraMain {
                 LectorV2.escribir("El resultado de la suma es: " + suma);
                 break;
             case 2:
+
                 break;
             case 3:
+
                 break;
             case 4:
+
                 break;
             case 5:
+
                 break;
             default:
+
                 break;
         }
 
-        String ciudad = Lector.LeerTexto("Ingrese nombre de ciudad: ");
+        String ciudad = LectorV2.LeerTexto("Ingrese nombre de ciudad: ");
         switch (ciudad){
             case "Lima":
-                Lector.escribirLinea("La ciudad es: " + ciudad);
+                LectorV2.escribirLinea("La ciudad es: " + ciudad);
                 break;
             case "Cusco":
-                Lector.escribirLinea("La ciudad es:  " + ciudad);
+                LectorV2.escribirLinea("La ciudad es:  " + ciudad);
                 break;
             case "Arequipa":
-                Lector.escribirLinea("La ciudad es:  " + ciudad);
+                LectorV2.escribirLinea("La ciudad es:  " + ciudad);
                 break;
             default:
-                Lector.escribirLinea("El nombre no esta registraado.");
+                LectorV2.escribirLinea("El nombre no esta registraado.");
                 break;
         }
     }
