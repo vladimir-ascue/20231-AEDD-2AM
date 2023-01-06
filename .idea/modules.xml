@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/20231-AEDD-2AM.iml" filepath="$PROJECT_DIR$/.idea/20231-AEDD-2AM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A02-Estrucutura/A02-Estrucutura.iml" filepath="$PROJECT_DIR$/A02-Estrucutura/A02-Estrucutura.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A03-VariablesYTitposDeDatos/A03-VariablesYTitposDeDatos.iml" filepath="$PROJECT_DIR$/A03-VariablesYTitposDeDatos/A03-VariablesYTitposDeDatos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A05-EstructuraSwitch/A05-EstructuraSwitch.iml" filepath="$PROJECT_DIR$/A05-EstructuraSwitch/A05-EstructuraSwitch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A06-BucleFor/A06-BucleFor.iml" filepath="$PROJECT_DIR$/A06-BucleFor/A06-BucleFor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A07-BucleWhile/A07-BucleWhile.iml" filepath="$PROJECT_DIR$/A07-BucleWhile/A07-BucleWhile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A08-BucleDoWhile/A08-BucleDoWhile.iml" filepath="$PROJECT_DIR$/A08-BucleDoWhile/A08-BucleDoWhile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A09-BlucleForEach/A09-BlucleForEach.iml" filepath="$PROJECT_DIR$/A09-BlucleForEach/A09-BlucleForEach.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A10-LectorJava/A10-LectorJava.iml" filepath="$PROJECT_DIR$/A10-LectorJava/A10-LectorJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A11-1-Conjuntos/A11-1-Conjuntos.iml" filepath="$PROJECT_DIR$/A11-1-Conjuntos/A11-1-Conjuntos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A11-ArreglosUnidimensionales/A11-ArreglosUnidimensionales.iml" filepath="$PROJECT_DIR$/A11-ArreglosUnidimensionales/A11-ArreglosUnidimensionales.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A12-Modularidad/A12-Modularidad.iml" filepath="$PROJECT_DIR$/A12-Modularidad/A12-Modularidad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A13-CalculadoraBasica/A13-CalculadoraBasica.iml" filepath="$PROJECT_DIR$/A13-CalculadoraBasica/A13-CalculadoraBasica.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A13.1-CalculadoraBasica/A13.1-CalculadoraBasica.iml" filepath="$PROJECT_DIR$/A13.1-CalculadoraBasica/A13.1-CalculadoraBasica.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
+    </modules>
+  </component>
+</project>
