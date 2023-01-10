@@ -67,6 +67,52 @@ public class PrincipalConjuntos {
         return union;
     }
 
+    public static int[] interserctar( int[] conjA, int[] conjB ){
+        int dup = 0; // es igual al tamaño de la interseccion
+        // DETERRMINAR EL NUMERO DE DUPLICADOS ENTRO LOS CONJUNTOS
+        for (int i = 0; i < conjA.length; i++) {
+            for (int j = 0; j < conjB.length; j++) {
+                if(conjA[i] == conjB[j])
+                    dup++;
+            }
+        }
+        int[] interseccion = new int[dup];
+
+        // ConjA = { 2,3,4,5 }  Length = 4     >> i > 0 - 3
+        // ConjA = { 3,4,6 } Length = 3        >> j > 0 - 2
+        // interseccion = { 3,4 }  Length = 2  >> c > 0 - 1
+        int c = 0;
+        for (int i = 0; i < conjA.length; i++) {
+            for (int j = 0; j < conjB.length; j++) {
+                if(conjA[i] == conjB[j]) {
+                    interseccion[c] = conjA[i];
+                    c++;
+                }
+            }
+        }
+
+        return interseccion;
+    }
+    // ConjA = { 2,3,4,5 }  Length = 4     >> i > 0 - 3
+    // ConjB = { 3,4,6 } Length = 3        >> j > 0 - 2
+    // Repetidos = 2
+    // diferencia A - B = { 2, 5 } Length = 2
+    // tamDiferemcia = tamA - Repetidos
+
+    public static int[] dif(){
+        int diferencia[] = null;
+
+        return diferencia;
+    }
+
+    // difSimetrica = (A - B) u (B - A)
+    // difSimetrica = (A U B) - (A ∩ B)
+    public static int[] difSim(){
+        int difSimterica[] = null;
+
+        return difSimterica;
+    }
+
     public static Boolean existe(int elem, int[] conj){
         Boolean flag = false;
         for (int i = 0; i < conj.length; i++) {
@@ -106,6 +152,8 @@ public class PrincipalConjuntos {
                 LectorV2.escribirLn("Vamos a INTERSECTAR los conjuntos");
                 mostrarConjunto(nombre1,A);
                 mostrarConjunto(nombre2,B);
+                int[] interseccion = interserctar(A,B);
+                mostrarConjunto(nombre1+ " ∩ "+nombre2 +" = ", interseccion);
                 break;
             case 3:
                 LectorV2.escribirLn("Vamos a hallar la DIFERENCIA de los conjuntos");
