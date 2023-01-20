@@ -1,20 +1,19 @@
 import java.util.Scanner;
 
 public class LectorV2 {
-	private static Scanner lector;
+	private static Scanner lector = new Scanner(System.in);
 	@SuppressWarnings("resource")
 	protected static int leerEntero(String mensaje) {
 		Boolean flagEntero = true;
 		int entero = 0;
 		do {
 			try {
-				System.out.print(mensaje); // Escribe el "Promt"
-				lector = new Scanner(System.in);
-				entero = lector.nextInt(); // Convierte a entero
-				flagEntero = false; // Cambia el estado de flagEntero para que termine el bucle
+				System.out.print(mensaje);
+				entero = lector.nextInt();
+				flagEntero = false;
 			} catch (Exception e) {
 				System.out.println("Error: Debe ingresar valor entero: ");
-				flagEntero = true; // Cambia el estado de flagEntero para que continue el bucle
+				flagEntero = true;
 				System.out.print("Intentelo nuevamente: ");
 			}
 		} while (flagEntero);

@@ -1,20 +1,19 @@
 import java.util.Scanner;
 
-public class LectorV2 {
-	private static Scanner lector;
+public class Lector {
 	@SuppressWarnings("resource")
-	protected static int leerEntero(String mensaje) {
+	protected static int LeerEntero() {
 		Boolean flagEntero = true;
 		int entero = 0;
 		do {
 			try {
-				System.out.print(mensaje); // Escribe el "Promt"
-				lector = new Scanner(System.in);
-				entero = lector.nextInt(); // Convierte a entero
-				flagEntero = false; // Cambia el estado de flagEntero para que termine el bucle
+				Scanner lector = new Scanner(System.in);
+				System.out.println("Infrese un número entero: ");
+				entero = lector.nextInt();
+				flagEntero = false;
 			} catch (Exception e) {
-				System.out.println("Error: Debe ingresar valor entero: ");
-				flagEntero = true; // Cambia el estado de flagEntero para que continue el bucle
+				System.out.println("Error: Debe ingresar un número entero: ");
+				flagEntero = true;
 				System.out.print("Intentelo nuevamente: ");
 			}
 		} while (flagEntero);
@@ -22,16 +21,17 @@ public class LectorV2 {
 	}
 
 	@SuppressWarnings("resource")
-	protected static double leerReal(String mensaje) {
+	protected static double LeerReal() {
 		Boolean flagReal = true;
 		double real = 0;
 		do {
 			try {
-				System.out.print(mensaje);
+				Scanner lector = new Scanner(System.in);
+				System.out.println("Infrese un número real: ");
 				real = lector.nextDouble();
 				flagReal = false;
 			} catch (Exception e) {
-				System.out.println("Error: Debe ingresar un valor real: ");
+				System.out.println("Error: Debe ingresar un número real: ");
 				flagReal = true;
 				System.out.print("Intentelo nuevamente: ");
 			}
@@ -40,8 +40,9 @@ public class LectorV2 {
 	}
 
 	@SuppressWarnings("resource")
-	protected static String LeerTexto(String mensaje) {
-		System.out.print(mensaje);
+	protected static String LeerTexto() {
+		Scanner lector = new Scanner(System.in);
+		System.out.println("Infrese un número texto: ");
 		String texto = lector.nextLine();
 		return texto;
 	}

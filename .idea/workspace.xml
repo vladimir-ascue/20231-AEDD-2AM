@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7b45d4a8-9093-497d-8ec2-ec5e31589032" name="Changes" comment="Actualizacion de nombres de proyecto">
+      <change beforePath="$PROJECT_DIR$/A13-CalculadoraBasica/src/LectorV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/A13-CalculadoraBasica/src/LectorV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A13-CalculadoraBasica/src/PrincipalCalculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/A13-CalculadoraBasica/src/PrincipalCalculadora.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/A11-ArreglosUnidimensionales/src/PrincipalArreglos.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2II8K2LlUOMA65ZGj9VcK0r9Wr1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/OneDrive/Documentos/Trabajo/Clientes/khipu/Algoritmos y Estructuras de Datos/20231-AEDD-2AM&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OneDrive\Documentos\Trabajo\Clientes\khipu\Algoritmos y Estructuras de Datos\20231-AEDD-2AM\A12-Conjuntos\src" />
+      <recent name="D:\OneDrive\Documentos\Trabajo\Clientes\khipu\Algoritmos y Estructuras de Datos\20231-AEDD-2AM\A09-BlucleForEach\src" />
+      <recent name="D:\OneDrive\Documentos\Trabajo\Clientes\khipu\Algoritmos y Estructuras de Datos\20231-AEDD-2AM\A08-BucleDoWhile\src" />
+      <recent name="D:\OneDrive\Documentos\Trabajo\Clientes\khipu\Algoritmos y Estructuras de Datos\20231-AEDD-2AM\A07-BucleWhile\src" />
+      <recent name="D:\OneDrive\Documentos\Trabajo\Clientes\khipu\Algoritmos y Estructuras de Datos\20231-AEDD-2AM\CalculadoraBasica\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="20231-AEDD-2AM" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="20231-AEDD-2AM" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b45d4a8-9093-497d-8ec2-ec5e31589032" name="Changes" comment="" />
+      <created>1669857669459</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669857669459</updated>
+      <workItem from="1669857670700" duration="13000" />
+      <workItem from="1669957292838" duration="140000" />
+      <workItem from="1669989363535" duration="149000" />
+      <workItem from="1669989519049" duration="1317000" />
+      <workItem from="1669994367861" duration="20000" />
+      <workItem from="1669994411348" duration="409000" />
+      <workItem from="1669996198721" duration="1032000" />
+      <workItem from="1670167649716" duration="2028000" />
+      <workItem from="1670174180284" duration="323000" />
+      <workItem from="1670179851371" duration="1701000" />
+      <workItem from="1670194962832" duration="134000" />
+      <workItem from="1670195112112" duration="1239000" />
+      <workItem from="1670201309631" duration="221000" />
+      <workItem from="1670201553926" duration="55000" />
+      <workItem from="1670204094304" duration="50000" />
+      <workItem from="1670204154247" duration="6000" />
+      <workItem from="1670204163410" duration="88000" />
+      <workItem from="1670204264690" duration="53000" />
+      <workItem from="1670204320978" duration="17000" />
+      <workItem from="1670340662632" duration="23000" />
+      <workItem from="1670340688467" duration="44000" />
+      <workItem from="1670776897563" duration="106000" />
+      <workItem from="1670810235320" duration="155000" />
+      <workItem from="1674226635242" duration="58000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

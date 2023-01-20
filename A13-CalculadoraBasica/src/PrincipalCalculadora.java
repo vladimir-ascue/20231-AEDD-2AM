@@ -30,7 +30,7 @@ public class PrincipalCalculadora {
         cosiente = num1 / num2;
         return cosiente;
     }
-    public static void main(String[] args) {
+    public static void main(String a[]) {
         int opcion;
         do {
             menu();
@@ -66,16 +66,42 @@ public class PrincipalCalculadora {
                     LectorV2.escribirLinea("\tVamos a dividir");
                     num1 = LectorV2.leerEntero("Ingrese Dividendo: ");
                     num2 = LectorV2.leerEntero("Ingrese Divisor: "); // 0
+                    if (num2 == 0){
+                        LectorV2.escribirLinea("    SUB MENU  ");
+                        LectorV2.escribirLinea(" 0- Regresar al menu principal");
+                        LectorV2.escribirLinea(" 1- Ingresar nuevo divisor");
+                        int opcionDiv = LectorV2.leerEntero("  >  ingrese Opcion: ");
 
+                        if( opcionDiv == 0){
+                            LectorV2.escribirLinea("Adios, Gracias por usar este programita....");
+                            break;
+                        }else{
+                            num2 = LectorV2.leerEntero(" \tIngrese un Divisor diferente de cero (0): ");
+                            if (num2 == 0) {
+                                LectorV2.escribirLinea("Volviste a ingresa ceero...\nRegresando al Menu Principal.\n");
+                                break;
+                            }else{
+                                double cosiente = division(num1, num2);
+                                LectorV2.escribirLinea("El cosiente de " + num1 +  " / " + num2 + " es: " + cosiente);
+                                break;
+                            }
+                        }
+                    } else {
+                        double cosiente = division(num1, num2);
+                        LectorV2.escribirLinea("El cosiente de " + num1 +  " / " + num2 + " es: " + cosiente);
+                        break;
+                    }
+
+
+                    /*
                     do {
                         if ( num2 == 0 ) {
-                            num2 = LectorV2.leerEntero(" \t Ingrese un nueevo Divisor diferente de cero (0): ");
+                            num2 = LectorV2.leerEntero(" \tIngrese un nueevo Divisor diferente de cero (0): ");
                         }
                     } while ( num2 == 0 );
+                    */
 
-                    double cosiente = division(num1, num2);
-                    LectorV2.escribirLinea("El cosiente de " + num1 +  " / " + num2 + " es: " + cosiente);
-                    break;
+
                 default:
                     break;
             }
