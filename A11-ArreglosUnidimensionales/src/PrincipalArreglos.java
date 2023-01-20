@@ -1,8 +1,11 @@
 public class PrincipalArreglos {
     public static void main(String[] args) throws Exception {
-        // Arreglos: Una variable, varios datos
+        // Arreglos: Una variable, varios datos del mismo tipo. Llamados tambien Vectores
         // Tamaño fijo
         // Un solo tipo de dato en un arreglo
+
+        // tamaño = 5 >> { 2, 4, 10,  , 6}
+        // tamaño = 6 >> { 4, , 2, , ,0}
 
         // Declaracion y asignacion de valores de un arreglo de tamño 6
         // La asignación de valores de un arreglo mediante la notacion con "{ }" solamente se puede usar al momento de su declaración
@@ -15,6 +18,12 @@ public class PrincipalArreglos {
 
         Lector.escribirLinea("Arreglo con los valores iniciales:");
         // Iterator se abrevia con i
+
+        // La longitud (Tamaño) del arreglo es = a el mayor indice +1
+        // El mayot indice del arreglo es = al tamaño (longitud) -1
+        // indiceMayor = longitud - 1
+        // longitud = indiceMayor + 1
+
         for (int i = 0 ; i < alumnos.length ; i++){
             Lector.escribirLinea(" - " + alumnos[i]);
         }
@@ -35,6 +44,7 @@ public class PrincipalArreglos {
         for (int i = 0 ; i < alumnos.length ; i++){
             Lector.escribirLinea(" - " + alumnos[i]);
         }
+
         Lector.escribirLinea("Cambiaremos los nombres otra vez");
         for(int i = 0; i < alumnos.length; i++){
             Lector.escribir("alumnos["+i+"]=");
@@ -43,12 +53,6 @@ public class PrincipalArreglos {
 
         for (int i = 0 ; i < alumnos.length ; i++){
             Lector.escribirLinea(" - " + alumnos[i]);
-        }
-        Lector.escribirLinea("Respuesta a la pregunta de Ruben");
-        Lector.escribirLinea("¿Y que hago si quiero incrementar de 2 en 2?");
-        // a += b >> a = a + b
-        for(int i = 1; i < 10; i+=2){
-            Lector.escribirLinea("i = " + i);
         }
     }
 }

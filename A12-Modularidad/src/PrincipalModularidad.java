@@ -1,5 +1,3 @@
-import org.jetbrains.annotations.NotNull;
-
 public class PrincipalModularidad {
     // Los procedimientos o métodos se declaran haciendo uso de la palabra reservada void
     // Ejecutan las intrucciones indicadas en su cuerpo, pero no devuelven un valor
@@ -61,7 +59,7 @@ public class PrincipalModularidad {
         int buscado = 5;
         int posicion = ubicacionElemento(arreglo,buscado);
 
-        if (posicion >= 0 ){
+        if ( posicion >= 0 ){
             LectorV2.escribirLinea(buscado + " está en la posición " + posicion + " del arreglo.");
         }else{
             LectorV2.escribirLinea(buscado + " no se encuentra en el arreglo.");
