@@ -48,11 +48,17 @@ public class Main {
 //
 //            System.out.print("Edad " + (i + 1) + ":");
 //            System.out.println(num[i]);
+
 //        }
 
-        for (int i = 10; i > 10; i-=2) {
+        System.out.println("System.out.println(i);");
+        for (int i = 0; i < 10; i++) {
             System.out.println(i);
         }
 
+        System.out.println("System.out.print(i);");
+        for (int i = 0; i < 10; i++) {
+            System.out.print(i);
+        }
     }
 }
