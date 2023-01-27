@@ -1,17 +1,23 @@
 public class PrincipalArreglos {
     public static void main(String[] args) throws Exception {
-        // Arreglos: Una variable, varios datos del mismo tipo. Llamados tambien Vectores
+        // Arreglos: Una variable, varios datos del mismo tipo (int, String, double ...). Llamados tambien Vectores
         // Tamaño fijo
         // Un solo tipo de dato en un arreglo
 
-        // tamaño = 5 >> { 2, 4, 10,  , 6}
-        // tamaño = 6 >> { 4, , 2, , ,0}
+        // tamaño = 5 >> { 2, 4, 10, 0 , 6}
+        // tamaño = 6 >> { 4, 0, 2, 0, 0,0}
+        int[] a = new int[5];  // Al inicializar el arreglo todos sus elementos son 0
+        System.out.println("elmento a4 = " + a[3]);
+
+        String [] b = new String[5];
+        System.out.println("elemento b3 = " + b[2]);
 
         // Declaracion y asignacion de valores de un arreglo de tamño 6
         // La asignación de valores de un arreglo mediante la notacion con "{ }" solamente se puede usar al momento de su declaración
         String[] alumnos = {"Vladimir", "Ilich", "Agueda", "Jessica", "Helena", "Massiel"};
         // Los indices de posicion de los valores del arreglo se numeran contando a partir del 0
         // Indices           0           1        2         3          4         5
+        // Numero Elemento   1           2        3         4          5         6
        
         // Se accede a cada posicion del arreglo usando los indices comprendidos entre 0 y el tamaño-1 del arreglo
         // Para conocer el tamaño de un arreglo podemos usar la propiedad length que devuelve un valor entero

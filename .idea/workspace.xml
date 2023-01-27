@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b45d4a8-9093-497d-8ec2-ec5e31589032" name="Changes" comment="Actualizacion de nombres de proyecto">
-      <change beforePath="$PROJECT_DIR$/A13-CalculadoraBasica/src/LectorV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/A13-CalculadoraBasica/src/LectorV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A13-CalculadoraBasica/src/PrincipalCalculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/A13-CalculadoraBasica/src/PrincipalCalculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A11-ArreglosUnidimensionales/src/PrincipalArreglos.java" beforeDir="false" afterPath="$PROJECT_DIR$/A11-ArreglosUnidimensionales/src/PrincipalArreglos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/principalEjemplo.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/principalEjemplo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,23 +34,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/OneDrive/Documentos/Trabajo/Clientes/khipu/Algoritmos y Estructuras de Datos/20231-AEDD-2AM&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/OneDrive/Documentos/Trabajo/Clientes/khipu/Algoritmos y Estructuras de Datos/20231-AEDD-2AM",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\OneDrive\Documentos\Trabajo\Clientes\khipu\Algoritmos y Estructuras de Datos\20231-AEDD-2AM\A12-Conjuntos\src" />
