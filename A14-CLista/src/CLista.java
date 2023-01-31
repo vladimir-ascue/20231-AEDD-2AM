@@ -35,4 +35,33 @@ public class CLista {
             return this.subLista.get(index - 1);
         }
     }
+
+    public void show(){
+        if ( this.subLista == null ){ // Condicion de finalizacion
+            System.out.println(this.cabeza + " )");
+        } else {
+            if (this.getSize() == 0 )
+                System.out.print(this.cabeza+",");
+            System.out.print(this.cabeza+",");
+            this.subLista.show();
+        }
+    }
+    public int getSize(){
+        int size = 0;
+        if( this.subLista == null )
+            if (this.cabeza == null)
+                return size;
+            else
+                return size + 1;
+        else
+            return this.subLista.getSize() + 1;
+    }
+
+    public Boolean isEmpty(){
+        if( this.cabeza == null && this.subLista == null)
+            return true;
+        else
+            return false;
+    }
+
 }
