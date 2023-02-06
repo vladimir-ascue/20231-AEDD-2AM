@@ -49,9 +49,6 @@ public class CLista {
 
     public void show(){
 
-        for (int i = 0; i < this.getSize(); i++) {
-            System.out.print(this.get(i));
-        }
     }
 
     public int getSize(){
