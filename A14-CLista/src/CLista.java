@@ -36,7 +36,7 @@ public class CLista {
         }
     }
 
-    public void show(){
+    public void _show(){
         if ( this.subLista == null ){ // Condicion de finalizacion
             System.out.println(this.cabeza + " )");
         } else {
@@ -46,6 +46,14 @@ public class CLista {
             this.subLista.show();
         }
     }
+
+    public void show(){
+
+        for (int i = 0; i < this.getSize(); i++) {
+            System.out.print(this.get(i));
+        }
+    }
+
     public int getSize(){
         int size = 0;
         if( this.subLista == null )
