@@ -48,7 +48,11 @@ public class CLista {
     }
 
     public void show(){
-
+        // tareita tienen que hacer que se vea bonito
+        // ( Vlaidmir, Ilich, Ascue, lovon )
+        for (int i = 0; i < this.getSize(); i++) {
+            System.out.print(this.get(i));
+        }
     }
 
     public int getSize(){
