@@ -51,7 +51,10 @@ public class CLista {
     public void show(){
         // tareita tienen que hacer que se vea bonito
         // ( Vladimir, Ilich, Ascue, lovon )
-        System.out.print("( ");
+        if(this.getSize() == 0)
+            System.out.print("( )");
+        else
+            System.out.print("( ");
         for (int i = 0; i < this.getSize(); i++) {
             if(i == this.getSize() - 1)
                 System.out.print(this.get(i) + " )" );
@@ -76,6 +79,38 @@ public class CLista {
             return true;
         else
             return false;
+    }
+
+    public void remove(int index){
+        if (index == 0){
+            this.cabeza = this.subLista.cabeza;
+            this.subLista = this.subLista.subLista;
+        }else{
+            this.subLista.remove(index - 1);
+        }
+    }
+
+    public void remove(String element){
+        if (this.cabeza.equals(element)){
+            if(this.subLista != null){
+                this.cabeza = this.subLista.cabeza;
+                this.subLista = this.subLista.subLista;
+            }else{
+                this.cabeza = null;
+                this.subLista = null;
+            }
+        }else{
+            if(this.subLista != null)
+                this.subLista.remove(element);
+        }
+    }
+
+    public int index(String element){
+        return 0;
+    }
+
+    public Boolean exists(String element){
+
     }
 
 }
