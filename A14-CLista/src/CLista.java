@@ -28,6 +28,7 @@ public class CLista {
             }
         }
     }
+
     public String get(int index){
         if (index == 0){
             return this.cabeza;
@@ -49,9 +50,13 @@ public class CLista {
 
     public void show(){
         // tareita tienen que hacer que se vea bonito
-        // ( Vlaidmir, Ilich, Ascue, lovon )
+        // ( Vladimir, Ilich, Ascue, lovon )
+        System.out.print("( ");
         for (int i = 0; i < this.getSize(); i++) {
-            System.out.print(this.get(i));
+            if(i == this.getSize() - 1)
+                System.out.print(this.get(i) + " )" );
+            else
+                System.out.print(this.get(i) + ", ");
         }
     }
 

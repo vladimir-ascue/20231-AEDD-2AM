@@ -7,9 +7,9 @@ public class principal {
         lista1.add(1,"Ilich");
         lista1.add(2,"Ascue");
         lista1.add(3,"Lovón");
+
         System.out.println("Tamaño: " + lista1.getSize());
+
         lista1.show();
-
-
     }
 }
