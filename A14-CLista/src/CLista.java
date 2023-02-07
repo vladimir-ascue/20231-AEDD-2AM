@@ -110,7 +110,7 @@ public class CLista {
     }
 
     public Boolean exists(String element){
-
+        return null;
     }
 
 }
