@@ -21,7 +21,7 @@ public class calculadoraMain {
 
     public static void main(String arg[]){
         menu();
-        int opcion = LectorV2.LeerEntero("Ingrese una opción: ");
+        String opcion = LectorV2.LeerEntero("Ingrese una opción: ");
         switch (opcion){
             case 0:
                 LectorV2.escribirLinea("Adios... Gracias por participar.");
@@ -32,7 +32,7 @@ public class calculadoraMain {
                 int num2 = LectorV2.LeerEntero("Ingrese numero 2: ");
                 int suma = sumar(num1, num2);
                 LectorV2.escribir("El resultado de la suma es: " + suma);
-                break;
+
             case 2:
 
                 break;

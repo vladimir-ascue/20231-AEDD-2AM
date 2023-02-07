@@ -18,7 +18,7 @@ public class PrincipalArreglos {
         // Los indices de posicion de los valores del arreglo se numeran contando a partir del 0
         // Indices           0           1        2         3          4         5
         // Numero Elemento   1           2        3         4          5         6
-       
+
         // Se accede a cada posicion del arreglo usando los indices comprendidos entre 0 y el tamaño-1 del arreglo
         // Para conocer el tamaño de un arreglo podemos usar la propiedad length que devuelve un valor entero
 
@@ -38,12 +38,20 @@ public class PrincipalArreglos {
         // Para nuestro caso:
         //   Tamaño del arreglo 6
         //   Indices 0, 1, 2, 3, 4, 5
+
+        String[] alumnos = {"Vladimir", "Ilich", "Agueda", "Jessica", "Helena", "Massiel"};
         alumnos[0] = "Platon";
         alumnos[1] = "Aristoteles";
         alumnos[2] = "Pitagoras";
         alumnos[3] = "Socrates";
         alumnos[4] = "Descartes";
         alumnos[5] = "Plotino";
+        alumnos[3] = alumnos[5];
+        alumnos[6] = "Anaximandro";
+
+        System.out.println(alumnos[3]);
+        System.out.println(alumnos[6]);
+        System.out.println(alumnos[7]);
 
         Lector.escribirLinea("Arreglo con los valores modificados:");
         // i++ Es el incremento de uno en uno

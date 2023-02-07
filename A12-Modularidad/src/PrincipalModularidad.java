@@ -32,7 +32,7 @@ public class PrincipalModularidad {
     // las funciones así como los métodos puede o no tener parámetros
     public static int ubicacionElemento(int[] arreglo, int buscado){
         int indice = -1;
-        for (int iterador = 0; iterador < arreglo.length; iterador++) {
+        for (int iterador = 1; iterador <= arreglo.length; iterador++) {
             if ( arreglo[iterador] == buscado){
                 indice = iterador;
             }
