@@ -117,4 +117,15 @@ public class CCola {
     public Boolean exists(String element){
         return null;
     }
+
+    public String peek(){
+        return null;
+    }
+
+    public String poll(){
+        return null;
+    }
+    public String element(){
+        return null;
+    }
 }
