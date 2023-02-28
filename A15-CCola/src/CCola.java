@@ -119,11 +119,13 @@ public class CCola {
     }
 
     public String peek(){
-        return null;
+        return get(0);
     }
 
     public String poll(){
-        return null;
+        String elemento = get(0);
+        remove(0);
+        return elemento;
     }
     public String element(){
         return null;

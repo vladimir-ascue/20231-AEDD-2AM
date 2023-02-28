@@ -4,48 +4,26 @@ import java.util.Stack;
 
 public class PrincipalPila {
     public static void main(String[] args) {
-        Stack<String> pila = new Stack<String>();
-        pila.add("Vladimir");
-        pila.add("Ilich");
-        pila.add("Ascue");
-        pila.add("Lovón");
+        CPila pila = new CPila();
 
-        pila.add(2,"Pepito");
-        System.out.print(pila.peek()); System.out.println("Tamaño: "+pila.size());
-        System.out.print(pila.peek()); System.out.println("Tamaño: "+pila.size());
-        System.out.print(pila.peek()); System.out.println("Tamaño: "+pila.size());
-        System.out.print(pila.peek()); System.out.println("Tamaño: "+pila.size());
-        System.out.print(pila.peek()); System.out.println("Tamaño: "+pila.size());
-        System.out.print(pila.peek()); System.out.println("Tamaño: "+pila.size());
+        pila.add(pila.getSize(),"Vladimir");
+        pila.add(pila.getSize(),"Ilich");
+        pila.add(pila.getSize(),"Ascue");
+        pila.add(pila.getSize(),"Lovón");
 
-//        System.out.print(pila.pop()); System.out.println("Tamaño: "+pila.size());
-//        System.out.print(pila.pop()); System.out.println("Tamaño: "+pila.size());
-//        System.out.print(pila.pop()); System.out.println("Tamaño: "+pila.size());
-//        System.out.print(pila.pop()); System.out.println("Tamaño: "+pila.size());
-//        System.out.print(pila.pop()); System.out.println("Tamaño: "+pila.size());
-//        System.out.print(pila.pop()); System.out.println("Tamaño: "+pila.size());
+        pila.show();
+        System.out.println(pila.peek());
+        pila.show();
 
-//        System.out.print(pila.push("Aristoteles")); System.out.println("Tamaño: "+pila.size());
-//        System.out.print(pila.push("Anaximandro")); System.out.println("Tamaño: "+pila.size());
-//        System.out.print(pila.push("Anaximenes")); System.out.println("Tamaño: "+pila.size());
-//        System.out.print(pila.push("Anaxagoras")); System.out.println("Tamaño: "+pila.size());
-//        System.out.print(pila.push("Pitagoras")); System.out.println("Tamaño: "+pila.size());
-//        System.out.print(pila.push("Sófocles")); System.out.println("Tamaño: "+pila.size());
-        System.out.print(pila.push("Galileo")); System.out.println("Tamaño: "+pila.size());
+        System.out.println(pila.pop());
 
-//        System.out.print(pila.peek()); System.out.println("Tamaño: "+pila.size());
-//        System.out.print(pila.peek()); System.out.println("Tamaño: "+pila.size());
-//        System.out.print(pila.peek()); System.out.println("Tamaño: "+pila.size());
-//        System.out.print(pila.peek()); System.out.println("Tamaño: "+pila.size());
-//        System.out.print(pila.peek()); System.out.println("Tamaño: "+pila.size());
-//        System.out.print(pila.peek()); System.out.println("Tamaño: "+pila.size());
+        pila.show();
 
-        System.out.print(pila.pop()); System.out.println("Tamaño: "+pila.size());
-        System.out.print(pila.pop()); System.out.println("Tamaño: "+pila.size());
-        System.out.print(pila.pop()); System.out.println("Tamaño: "+pila.size());
-        System.out.print(pila.pop()); System.out.println("Tamaño: "+pila.size());
-        System.out.print(pila.pop()); System.out.println("Tamaño: "+pila.size());
-        System.out.print(pila.pop()); System.out.println("Tamaño: "+pila.size());
-        System.out.print(pila.pop()); System.out.println("Tamaño: "+pila.size());
+//
+//        System.out.println("tamaño = " + pila.getSize());
+//
+//        pila.remove(3);
+
+        pila.show();
     }
 }

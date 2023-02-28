@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b45d4a8-9093-497d-8ec2-ec5e31589032" name="Changes" comment="Actualizacion de nombres de proyecto" />
+    <list default="true" id="7b45d4a8-9093-497d-8ec2-ec5e31589032" name="Changes" comment="Actualizacion de nombres de proyecto">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A15-CCola/src/CCola.java" beforeDir="false" afterPath="$PROJECT_DIR$/A15-CCola/src/CCola.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A16-CPila/out/production/A16-CPila/CPila.class" beforeDir="false" afterPath="$PROJECT_DIR$/A16-CPila/out/production/A16-CPila/CPila.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A16-CPila/out/production/A16-CPila/PrincipalPila.class" beforeDir="false" afterPath="$PROJECT_DIR$/A16-CPila/out/production/A16-CPila/PrincipalPila.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A16-CPila/src/CPila.java" beforeDir="false" afterPath="$PROJECT_DIR$/A16-CPila/src/CPila.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A16-CPila/src/PrincipalPila.java" beforeDir="false" afterPath="$PROJECT_DIR$/A16-CPila/src/PrincipalPila.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +52,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="RecentsManager">

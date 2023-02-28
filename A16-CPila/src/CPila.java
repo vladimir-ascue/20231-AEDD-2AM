@@ -83,13 +83,12 @@ public class CPila {
 
     public void remove(int index){
         if (index == 0){
-            this.cabeza = this.subPila.cabeza;
-            this.subPila = this.subPila.subPila;
+            this.cabeza = null;
+            this.subPila = null;
         }else{
             this.subPila.remove(index - 1);
         }
     }
-
     public void remove(String element){
         if (this.cabeza.equals(element)){
             if(this.subPila != null){
@@ -111,6 +110,16 @@ public class CPila {
 
     public Boolean exists(String element){
         return null;
+    }
+
+    public String peek(){
+        return get(getSize()-1);
+    }
+
+    public String pop(){
+        String elemento = get(getSize()-1);
+        remove(getSize()-1);
+        return elemento;
     }
 
 }
